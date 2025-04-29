@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.HashMap;
 
-public class Attendance11{
+public class Attendance1{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         HashMap<Integer, String> students = new HashMap<>();
