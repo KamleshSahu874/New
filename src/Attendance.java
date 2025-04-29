@@ -5,7 +5,6 @@ public class Attendance {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Step 1: Get number of students
         System.out.print("Enter number of students: ");
         int numStudents = scanner.nextInt();
         scanner.nextLine();
