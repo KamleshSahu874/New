@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Overloadex {
 
-    // Overloaded methods named display
     void display(int a) {
         System.out.println("You entered an integer: " + a);
     }
@@ -25,16 +24,16 @@ public class Overloadex {
         if (choice == 1) {
             System.out.print("Enter an integer: ");
             int num = sc.nextInt();
-            obj.display(num);  // Calls int version
+            obj.display(num);
         } else if (choice == 2) {
             System.out.print("Enter a name: ");
-            sc.nextLine(); // Clear buffer
+            sc.nextLine();
             String name = sc.nextLine();
-            obj.display(name); // Calls String version
+            obj.display(name);
         } else if (choice == 3) {
             System.out.print("Enter a decimal number: ");
             double d = sc.nextDouble();
-            obj.display(d); // Calls double version
+            obj.display(d);
         } else {
             System.out.println("Invalid choice.");
         }
